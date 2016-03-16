@@ -44,7 +44,6 @@ Instagram.init({
     client_id: 'd49da08a520f47cbb6e7618f077f33ef'
 });
 
-
 $( document ).ready(function() {
 
     Instagram.popular(function( response ) {
