@@ -15,6 +15,7 @@ window.Instagram = {
     /**
      * Get a list of popular media.
      */
+
     popular: function( callback ) {
         var endpoint = this.BASE_URL + '/media/popular?client_id=' + this.config.client_id;
         this.getJSON( endpoint, callback );
